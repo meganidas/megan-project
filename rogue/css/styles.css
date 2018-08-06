@@ -1,0 +1,172 @@
+/*****BASE STYLES*****/
+
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/****GRID****/
+
+.full-width {
+  margin: 0 auto;
+  width: 1200px;
+  }
+
+.half-width {
+  float:left;
+  width: 600px;
+}
+
+.third-width {
+  float: left;
+  width: 400px;
+  overflow:auto;
+}
+
+
+/****HEADER****/
+
+
+header {
+  display: inline;
+  float:none;
+  font-weight: bold;
+  height: 110px;
+  overflow: auto;
+  text-transform: uppercase;
+}
+
+header h1 {
+  font-size: 40px;
+  text-transform: capitalize;
+}
+
+nav {
+  color: #77a466;
+  float: right;
+  font-size: 16px;
+  font-variant: small-caps;
+  margin-top: 20px;
+  padding-right: 0px;
+  width: 600px;
+  word-spacing: 15px;
+}
+
+nav ul li {
+  display: inline-block;
+  padding-top: 10px;
+}
+
+#rogue {
+  color: #77a466;
+}
+
+#hero-image {
+  background-color: #77a466;
+  padding: 3px 0px 3px 0px;
+}
+
+
+/*****BODY*****/
+
+main {
+  clear:left;
+}
+
+body h2 {
+  color: #77a466;
+  font-size: 24px;
+  text-transform: uppercase;
+  }
+
+#welcome {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 33px;
+}
+
+
+h3 {
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.section-1 h3 {
+  padding: 10px 0;
+}
+
+.section-1, .section-2, .section-3 {
+  border-top: 1px solid #dedbdc;
+  float: left;
+  height:auto;
+  width: 399px;
+}
+
+.section-2 {
+  border-right: 1px solid #dedbdc;
+  border-left: 1px solid #dedbdc;
+}
+
+.section-2 h3, .section-3 h3 {
+  padding: 10px 30px;
+}
+
+.section-3 {
+}
+
+#specials {
+list-style: none;
+padding: 0;
+
+}
+
+#specials li {
+  color: #77a466;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 24px;
+  list-style: none;
+  padding: 10px 0px;
+  }
+
+#reviews{
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 25px;
+  padding: 0 30px;
+}
+
+#contact {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 30px;
+  padding: 0 30px;
+}
+
+
+/*****FOOTER*****/
+
+footer {
+  clear:left;
+}
+
+footer .full-width {
+  border-top: 1px solid #dedbdc;
+}
+
+footer h4{
+  font-size: 16px;
+  font-weight: bold;
+  padding-top: 10px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#fresh {
+  color: #77a466;
+  font-family: Pacifico, cursive;
+  font-style: oblique;
+  font-weight: normal;
+  text-transform: none;
+}
